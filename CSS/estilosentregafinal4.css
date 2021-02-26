@@ -87,3 +87,56 @@ input[type=submit]:hover {
   .column, input[type=submit] {
     width: 100%;
     margin-top: 0; } }
+
+.text-center {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal; }
+
+.container {
+  padding: 40px;
+  margin-bottom: 100px; }
+
+html {
+  position: relative;
+  min-height: 100%; }
+
+body {
+  margin-bottom: 60px;
+  /* Margin bottom by footer height */ }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  /* Set the fixed height of the footer here */
+  line-height: 60px;
+  /* Vertically center the text there */
+  background-color: #f8f8f8; }
+
+.text-justify {
+  padding-left: 45%; }
+
+.note {
+  padding: 10px;
+  border-left: 6px solid;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal; }
+
+.note-light {
+  background-color: #fbfbfb;
+  border-color: #000000; }
+
+.p-4 {
+  padding: 1.5rem !important; }
+
+.mb-4 {
+  margin-bottom: 1.5rem !important; }
+
+.border {
+  border: 1px solid #303030 !important; }
+
+.blockquote {
+  color: #f8f8f8;
+  font-style: lighter; }
